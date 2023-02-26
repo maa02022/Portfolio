@@ -1,0 +1,97 @@
+/*Contact-stylesheets-include-here*/
+* {
+	box-sizing: border-box;
+}
+.contact_with{
+	text-align: center;
+	color: darksalmon;
+	font-size: 24px;
+	text-decoration: underline;
+}
+.contact_info{
+	height:400px;
+	width:100%;
+	margin:0px;
+	padding:0px;
+	background-color: none;
+
+}
+.contact_info .addresses{
+	background-color:none;
+	width:50%;
+	height:400px;
+	float:left;
+	padding: 50px 50px 70px 200px;
+}
+.contact_info .addresses div{
+	background-color: rgb(255, 255, 255);
+	width:50%;
+	height:400px;
+}
+
+.contact_info .addresses .ul_list{
+	list-style-type:none;
+	width:50%;
+	font-weight: 1000;
+	font-size: 30px;
+	margin-left: 5%;
+}
+.contact_info .addresses .ul_list .list{
+	height:0px;
+	white-space: nowrap;
+	line-height: 0px;
+	color: #fabc5e;
+}
+.list h6 strong{
+	font-style: italic;
+	color:darksalmon;
+}
+.contact_info .addresses .ul_list .list i{
+    color: darksalmon;
+
+}
+
+
+.container {
+	width: 50%;
+	margin: 0 auto;
+	padding: 70px 200px 70px 50px;
+	float:right;
+	height: 400px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: none;
+	background-color: #f8e29b;
+	color: #fabc5e;
+	font-size: 16px;
+}
+
+input[type="submit"] {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: darksalmon;
+	color: #ffffff;
+	font-size: 16px;
+	cursor: pointer;
+	height: 55px;
+	width:90px;
+	text-align: center;
+	font-weight: 1000;
+}
+
+input[type="submit"]:hover {
+	background-color: #666;
+}
